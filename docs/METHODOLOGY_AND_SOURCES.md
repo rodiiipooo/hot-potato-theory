@@ -21,9 +21,17 @@ New section covering three active-intervention strategies. Grounding vs. proposa
 - **Strategic reserve** — analogy to **share buybacks / buffer-stock price supports / central-bank intervention** is sound. Author's normative additions: account for it as *brand capex* not lost revenue; intervene *opportunistically/opaquely* (threshold-triggered, not a published accelerating schedule — the latter is front-runnable); *floor* the market rather than close it (liquidity supports new-unit pricing).
 - **No-arbitrage price ladder** — New ▸ certified-used (by condition) ▸ auction/wholesale ▸ trade-in credit, each rung below the last by more than transfer cost. Logic is a standard no-arbitrage / money-pump argument; the trade-in-credit vulnerability (sticky published values floating above auction price → buy-low-trade-in-high pump) is real and OEMs already deploy some defenses (provenance checks, per-customer limits, no-resale clauses on edu/volume tiers).
 
+## Part II hardening (research, 2026-06-21)
+
+Open question #3 is now resolved:
+
+- **Buyback/returns contracts ARE real practice in electronics**, not just theory. Component makers (e.g., Intel) extend stock-return rights down the channel to distributors; "return/buyback policies in wholesale contracts allow retailers to return unsold stock" is documented channel practice. Academic treatment confirms the put-option framing used in the essay (Springer, *J. Revenue & Pricing Management* 2024, compares buyback vs put-option contracts for inventory-risk management). Seminal: Pasternack (1985). Sources: Springer article (link in essay), buffalo.edu channel-coordination paper, ScienceDirect buyback-contract literature.
+- **The recovery-value asymmetry is real and named**: Apple's certified-refurbished + trade-in operation is the textbook case — HBS Working Knowledge, "How Used Products Can Unlock New Markets: Lessons from Apple's Refurbished iPhones." US mobile trade-in programs returned **$6.4B+ to consumers in 2025 (+42% YoY)**. Validates "OEM has recovery uses a retailer lacks." Sources: HBS WK article, dipli.com iPhone-16 residual-value piece, apple.com/shop/{refurbished,trade-in}.
+- **The "strategic reserve" remains the author's normative proposal** — no major OEM is known to repurchase finished units on the open market purely to defend price. Closest real instrument = certified-refurb / trade-in *supply-timing* control. Essay now states this limit explicitly. ✓ correctly flagged, not overclaimed.
+
 ## Top open questions to resolve before publishing
 
 1. Is the channel actually oversupplied as a rule, or only in specific cycles? The thesis leans on this; cite a teardown/channel-inventory or sell-in-vs-sell-through data point to harden it.
 2. Direct causal evidence that retailer price cuts *cause* secondhand value erosion (vs. both being driven by a common demand drop). Currently asserted, not sourced.
-3. Part II contract designs are reasoned, not observed — find at least one real-world buyback/returns-contract case in consumer electronics to anchor them, and confirm whether any OEM actually runs a residual-value "strategic reserve" (vs. just certified-refurb supply timing).
-4. Author must supply the **"adversarial purchasing"** definition for Part III — it is currently a placeholder with no substantive content.
+3. ~~Part II contract designs / strategic reserve grounding~~ — **RESOLVED** (see Part II hardening above): buyback contracts confirmed as real electronics practice + put-option framing validated; strategic reserve confirmed as proposal (no observed OEM open-market price-support reserve).
+4. Author must supply the **"adversarial purchasing"** definition for Part III — content now drafted (see `docs/PART_III_DRAFT.md`), pending decision on whether it belongs in the public, job-linked repo (antitrust / tortious-interference + reputational considerations).
