@@ -13,8 +13,17 @@
 - **QUALIFIED:** the "premium per unit above a price" actually splits into TWO real instruments — SPIFF (per-unit selling bonus) and price protection (reimburses price-drop losses on unsold stock). The essay names both.
 - **FLAGGED AS SPECULATIVE (reasoned, not measured):** that the channel is *systematically* oversupplied, and that the price-cutting cascade is *self-fulfilling*. Depreciation steepness is consistent with these but does not prove them.
 
-## Top 3 open questions to resolve before publishing
+## Part II — OEM intervention toolkit (added)
+
+New section covering three active-intervention strategies. Grounding vs. proposal:
+
+- **Buyback-and-consignment** — the mechanism is real: a **buyback/returns contract**, a classic channel-coordination tool under demand uncertainty (Pasternack, *Marketing Science*, 1985). The *enabling asymmetry* (OEM has recovery uses — refurb, warranty stock, trade-in fulfillment, re-channeling to enterprise/edu/emerging tiers — that a retailer lacks) is real and is how certified-refurbished programs already work. The **specific contract terms are the author's design**: capped-quantity / capped-price option tied to over-order amount (≈ a written put), eligibility gated on successor-launch + N-days-unsold + condition + MAP discipline, buyback price = `max(salvage, refurb-resale − costs)`.
+- **Strategic reserve** — analogy to **share buybacks / buffer-stock price supports / central-bank intervention** is sound. Author's normative additions: account for it as *brand capex* not lost revenue; intervene *opportunistically/opaquely* (threshold-triggered, not a published accelerating schedule — the latter is front-runnable); *floor* the market rather than close it (liquidity supports new-unit pricing).
+- **No-arbitrage price ladder** — New ▸ certified-used (by condition) ▸ auction/wholesale ▸ trade-in credit, each rung below the last by more than transfer cost. Logic is a standard no-arbitrage / money-pump argument; the trade-in-credit vulnerability (sticky published values floating above auction price → buy-low-trade-in-high pump) is real and OEMs already deploy some defenses (provenance checks, per-customer limits, no-resale clauses on edu/volume tiers).
+
+## Top open questions to resolve before publishing
 
 1. Is the channel actually oversupplied as a rule, or only in specific cycles? The thesis leans on this; cite a teardown/channel-inventory or sell-in-vs-sell-through data point to harden it.
 2. Direct causal evidence that retailer price cuts *cause* secondhand value erosion (vs. both being driven by a common demand drop). Currently asserted, not sourced.
-3. Author must supply the **"adversarial purchasing"** definition for Part II — it is currently a placeholder with no substantive content.
+3. Part II contract designs are reasoned, not observed — find at least one real-world buyback/returns-contract case in consumer electronics to anchor them, and confirm whether any OEM actually runs a residual-value "strategic reserve" (vs. just certified-refurb supply timing).
+4. Author must supply the **"adversarial purchasing"** definition for Part III — it is currently a placeholder with no substantive content.

@@ -55,11 +55,59 @@ A necessary caveat on that last point *(researched)*: outright **resale price ma
 
 The throughline: the depreciation curve is not weather. It is partly a managed outcome. **Only through deliberate control of production, distribution, and channel incentives can an OEM shape its own depreciation curve** — and the brands that do it best (Apple being the obvious exemplar) are rewarded with the shallowest curves and the most durable pricing power.
 
-## Part II — "Adversarial Purchasing" *(forthcoming)*
+## Part II — When the OEM becomes the buyer of last resort
+
+The channel incentives above are all *passive*: they nudge the distributor's behavior but leave the inventory where it sits. A more aggressive manufacturer can intervene *directly* in its own secondary market. Three moves, in increasing order of ambition.
+
+### 1. The buyback-and-consignment trade
+
+Suppose that instead of merely reimbursing a distributor for a price cut, the OEM *repurchases* the stale units outright — at a discount — and resells them itself, on consignment, through a certified-refurbished channel. The distributor is relieved of a depreciating asset; the OEM earns the resale spread plus what amounts to "carry" on holding the goods until a buyer appears.
+
+The objection writes itself: doesn't this just shift the inventory risk from the distributor's balance sheet to the OEM's? It does — *unless the contract is built so the OEM is structurally advantaged in ways the distributor is not.* And it is, because of one asymmetry: **the OEM has uses for a stale unit that the distributor doesn't.** It can refurbish it, harvest it for warranty-replacement stock, fulfill its own trade-in program with it, or re-channel it to the enterprise, education, or emerging-market tiers. A unit worth $200 in a retailer's fire-sale can be worth $350 to the manufacturer who can recertify and rebadge it. *That gap is what funds the whole arrangement.* The trade is positive-sum: any buyback price between the distributor's fire-sale proceeds and the OEM's recovery value leaves both parties better off. That band is the "very special contract."
+
+This is not exotic. Operations researchers call it a **buyback (or returns) contract** — one of the classic mechanisms for *channel coordination* under demand uncertainty, formalized by Pasternack in the 1980s. The art is in the conditions. To protect the OEM while staying fair to the distributor:
+
+- **Make it a capped option, not an obligation.** The distributor earns the *right* to sell back up to a fixed fraction of units — tied to the amount it actually over-ordered, not to total purchases — at a pre-agreed, age-and-condition-indexed formula price. The OEM is effectively *writing a put* on its own product: quantity-capped, price-capped, no open-ended exposure.
+- **Gate it on genuine staleness and good behavior.** Eligibility triggers only when (a) the successor model has launched, (b) the unit is demonstrably unsold after N days, (c) it is in certified-sellable condition, and — crucially — (d) the distributor *held MAP discipline* and did not already fire-sale it. This rewards the distributors who protect the curve and denies the backstop to those who broke ranks; the incentive and the remedy point the same way.
+- **Price it off the OEM's recovery value, never the market price.** The buyback formula is `max(salvage/parts value, refurb-resale value − costs)`. The OEM never pays more than the unit is worth *to it*, so it cannot overpay into a loss.
+
+The distributor gets a floor under its worst inventory; the OEM gets supply it can monetize and a quieter secondary market. The "interest" the original draft intuited is real — but it is better understood as the OEM being *paid, in margin and brand protection, to act as the channel's inventory shock-absorber.*
+
+### 2. The strategic reserve
+
+The most aggressive version is for the OEM simply to buy its own product back on the open secondary market — the way a company repurchases its own shares to support the price, or a central bank intervenes to defend a currency. By absorbing stale supply, it puts a **floor under residual value.**
+
+The original draft flags the obvious tension: this defeats "maximize revenue forever." It does — *on the revenue line.* The resolution is to stop accounting for it there. Residual-value support is not a revenue activity; it is **brand capital expenditure.** The money spent buying units back is the price of keeping the depreciation curve shallow, and a shallow curve is what preserves *next* cycle's pricing power — the entire franchise value. Apple does not enjoy the industry's best resale values by accident; strong residuals let it charge more for new devices, because buyers price in what they expect to recover later.
+
+Two cautions keep this from backfiring:
+
+- **Don't publish the schedule.** The draft's instinct toward "increasingly increasing quantities" on a fixed calendar is exactly the wrong shape: a predictable, accelerating buyback is *front-runnable* — speculators simply buy ahead of you and sell into your bid. Effective intervention is *opportunistic and opaque*, triggered when residual value breaches a threshold, not on a date. (The same "show the result, never the recipe" discipline that governs good market-making.)
+- **Floor the market; don't close it.** A *fully* closed resale system is self-defeating, because a *liquid, healthy* resale market is itself what supports high new-unit prices. The goal is a **buffer stock** — a buyer of last resort that defends a floor and releases supply when prices recover — not a vacuum that strangles the very liquidity that makes the brand desirable.
+
+### 3. The no-arbitrage price ladder
+
+Whatever it does, the OEM must hold its own price points in a strict order, because it *controls several of them at once* — and any inversion opens a riskless money pump that drains it. The required ordering, high to low:
+
+> **New (from OEM) ▸ Certified used (scaled by condition) ▸ Auction / wholesale lot ▸ Trade-in credit.**
+
+Each rung must sit *meaningfully* below the one above — by more than the cost of moving between them — or even a correct ordering invites churn. The dangerous rung is **trade-in credit**, because the OEM funds it and published trade-in values are *sticky*: they lag the live market. The moment a sticky trade-in value floats above the auction price, the original draft's "malicious actor" appears — buy cheap at auction, trade in for a larger credit, repeat — and pumps the OEM dry. The defenses follow directly:
+
+- **Float trade-in values with the live secondary market**, re-priced frequently and held strictly below wholesale.
+- **Close the loop on provenance** — block trade-ins of units the OEM itself recently sold at auction.
+- **Limit and identity-check** trade-ins per customer and per period, to defeat bulk exploitation.
+- **Fence the carve-outs.** "New is the highest price" holds only *subject to terms* — education, volume, and enterprise pricing are deliberate exceptions, which is exactly why they carry contractual no-resale restrictions. An unfenced discount tier is just another inverted rung.
+
+Hold the ladder and the secondary market stays orderly; let a rung invert and arbitrageurs harvest the difference at the OEM's expense.
+
+### Why all of this is really about perception
+
+Every mechanism here — the buyback put, the strategic reserve, the price ladder — costs the OEM something up front. The reason to pay it is named in the original draft's last line: **consumer perception decides product adoption and the rate of adoption.** A device whose value visibly collapses reads as disposable and low-status, and that perception slows the *next* launch. A device with strong, orderly residuals reads as durable and premium, and that perception accelerates adoption and underwrites new-unit pricing. Residual-value management is not a financial sideshow bolted onto the product business — it *is* brand management, conducted in the secondary market.
+
+## Part III — "Adversarial Purchasing" *(forthcoming)*
 
 Every device eventually meets one of three fates: it is destroyed, lost, or **exchanged**. The exchange path is where the most interesting strategic behavior lives — and where a targeted tactic the author calls **"adversarial purchasing"** can deliberately move a product's residual value.
 
-*This section is a marked placeholder.* The full treatment of adversarial purchasing — what it is, who does it, and how it bends the resale market — is reserved for Part II, to be supplied by the author. It is flagged here so the arc is visible: oversupply heats the potato, manufacturer incentives cool it, and a final actor learns to *play the cooling and reheating itself*.
+*This section is a marked placeholder.* The full treatment of adversarial purchasing — what it is, who does it, and how it bends the resale market — is reserved for Part III, to be supplied by the author. It is flagged here so the arc is visible: oversupply heats the potato, manufacturer incentives cool it, and a final actor learns to *play the cooling and reheating itself*.
 
 ## The takeaway
 
@@ -67,4 +115,4 @@ Hot Potato Theory reframes a familiar experience — the sting of watching a new
 
 ---
 
-*A note on confidence: the depreciation figures, the SPIFF / price-protection / MAP mechanisms, and the antitrust framing (Colgate, Leegin) are all researched and sourced. The claims that the channel is **systematically** oversupplied, and that the price-cutting cascade is partly **self-fulfilling**, are reasoned inferences consistent with the data but not directly measured here — they are the parts of the thesis most worth pressure-testing before publication.*
+*A note on confidence: the depreciation figures, the SPIFF / price-protection / MAP mechanisms, and the antitrust framing (Colgate, Leegin) are all researched and sourced. The buyback/returns contract is an established channel-coordination mechanism (Pasternack); certified-refurbished programs, OEM trade-in arbitrage, and the share-buyback / buffer-stock analogy are real, but the **specific contract designs in Part II — the capped-put buyback terms, the opportunistic strategic reserve, and the enforced price ladder — are the author's normative proposals**, sound in logic and grounded in those real instruments but not claimed as observed practice. The claims that the channel is **systematically** oversupplied, and that the price-cutting cascade is partly **self-fulfilling**, remain reasoned inferences consistent with the data but not directly measured here — these are the parts of the thesis most worth pressure-testing before publication.*
